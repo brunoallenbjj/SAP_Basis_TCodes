@@ -140,6 +140,22 @@ Este repositório contém uma referência interativa e bem organizada para os pr
 
 ---
 
+## 📦 Gerenciamento de Transport Requests (Solicitações de Transporte)
+
+As transações abaixo são essenciais para a administração de mudanças entre ambientes (DEV → QAS → PRD):
+
+| Transação | O que pode ser feito |
+|-----------|----------------------|
+| STMS    | Transport Management System — gerencia rotas e sistemas de transporte. Permite importar solicitações entre ambientes. |
+| SE09    | Workbench Requests — visualizar e administrar transportes de desenvolvimento (objetos técnicos). |
+| SE10    | Customizing Requests — visualizar e administrar transportes de customizações (parametrizações). |
+| SCC1    | Importa requests de outro mandante (client) dentro do mesmo sistema SAP. |
+| STMS_IMPORT | Tela direta para importar requests no ambiente de destino. |
+| TP (linha de comando) | Comando para execução técnica de importações e validações de transportes no nível do sistema operacional. |
+| OS01    | Verificação de caminhos físicos (diretórios de transportes). |
+
+---
+
 ## 📂 Contribuindo
 
 Sinta-se à vontade para fazer fork do repositório e enviar pull requests com:
